@@ -1,6 +1,6 @@
 language: java
 
-dist: trusty
+dist: bionic
 
 arch:
   - amd64
