@@ -5,10 +5,11 @@ dist: trusty
 arch:
   - amd64
   - ppc64le
-    addons:
-      apt:
-        packages:
-          maven
+    
+addons:
+  apt:
+    packages:
+      maven
 
 jdk:
   - oraclejdk8
